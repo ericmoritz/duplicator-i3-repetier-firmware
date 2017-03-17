@@ -65,7 +65,7 @@
 #define DRIVE_SYSTEM 0
 #define XAXIS_STEPS_PER_MM 80
 #define YAXIS_STEPS_PER_MM 80
-#define ZAXIS_STEPS_PER_MM 405.4591
+#define ZAXIS_STEPS_PER_MM 400
 #define EXTRUDER_FAN_COOL_TEMP 50
 #define PDM_FOR_EXTRUDER 0
 #define PDM_FOR_COOLER 0
@@ -383,7 +383,7 @@ It also can add a delay to wait for spindle to run on full speed.
 #define ACK_WITH_LINENUMBER 1
 #define WAITING_IDENTIFIER "wait"
 #define ECHO_ON_EXECUTE 1
-#define EEPROM_MODE 1
+#define EEPROM_MODE 0
 #undef PS_ON_PIN
 #define PS_ON_PIN ORIG_PS_ON_PIN
 #define JSON_OUTPUT 0
@@ -539,10 +539,10 @@ Values must be in range 1..255
     "bluetoothBaudrate": 115200,
     "xStepsPerMM": 80,
     "yStepsPerMM": 80,
-    "zStepsPerMM": 405.4591,
+    "zStepsPerMM": 400,
     "xInvert": 0,
     "xInvertEnable": 0,
-    "eepromMode": 1,
+    "eepromMode": 0,
     "yInvert": 0,
     "yInvertEnable": 0,
     "zInvert": 0,
