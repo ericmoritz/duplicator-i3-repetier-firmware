@@ -318,10 +318,10 @@ It also can add a delay to wait for spindle to run on full speed.
 #define MAX_INACTIVE_TIME 0L
 #define MAX_FEEDRATE_X 200
 #define MAX_FEEDRATE_Y 200
-#define MAX_FEEDRATE_Z 40
+#define MAX_FEEDRATE_Z 2
 #define HOMING_FEEDRATE_X 40
 #define HOMING_FEEDRATE_Y 40
-#define HOMING_FEEDRATE_Z 40
+#define HOMING_FEEDRATE_Z 2
 #define HOMING_ORDER HOME_ORDER_ZXY
 #define ZHOME_MIN_TEMPERATURE 0
 #define ZHOME_HEAT_ALL 1
@@ -620,8 +620,8 @@ Values must be in range 1..255
     "yHomingSpeed": 40,
     "yTravelAcceleration": 1000,
     "yPrintAcceleration": 1000,
-    "zMaxSpeed": 40,
-    "zHomingSpeed": 40,
+    "zMaxSpeed": 2,
+    "zHomingSpeed": 2,
     "zTravelAcceleration": 100,
     "zPrintAcceleration": 100,
     "xMotor": {
